@@ -16,5 +16,20 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIspisi_Click(object sender, EventArgs e)
+        {
+            
+            txtIspis.Text = txtime.Text +" " + txtprezime.Text;
+
+
+
+            
+        }
     }
 }
